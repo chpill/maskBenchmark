@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Canvas mask benchmark</title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <!--
+  <link rel="stylesheet" href="../dist/css/zonard.css" type="text/css">
+  <link rel="stylesheet" href="example.css" type="text/css">
+  -->
+
+</head>
+<body>
+
+  <h1>
+    A small set of benchmarks to check the performances of different masking
+    methods. This uses the canvas and png as masks.
+  </h1>
+
+  <canvas id="cv" width="500px" height="500px">No canvas tag available in your browser :/</canvas>
+
+  <p id="inProgress"> Benchmark in progress, please wait...</p>
+
+  <ul id="results"></ul>
+
+  <script src="node_modules/benchmark/benchmark.js"></script>
+  <script src="imageMask.js"></script>
+
+  </body>
+</html>

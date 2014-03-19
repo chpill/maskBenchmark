@@ -1,0 +1,19 @@
+{
+  "name": "imageMask",
+  "version": "0.0.1",
+  "description": "Small benchmark on the use of the htlm5 canvas to mask an image with a png.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "benchmark",
+    "canvas",
+    "mask"
+  ],
+  "author": "chpill",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^1.0.0"
+  }
+}
